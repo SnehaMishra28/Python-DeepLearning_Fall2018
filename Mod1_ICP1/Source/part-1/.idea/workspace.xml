@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/ICP1(2_2).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,8 @@
       <file leaf-file-name="ICP1(3).py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ICP1(3).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="160">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/ICP1(2_1).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="42" selection-end-line="4" selection-end-column="45" />
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -66,10 +66,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="382" />
-    <option name="y" value="181" />
-    <option name="width" value="817" />
-    <option name="height" value="683" />
+    <option name="x" value="90" />
+    <option name="y" value="95" />
+    <option name="width" value="822" />
+    <option name="height" value="550" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -106,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ICP1(3)">
+  <component name="RunManager" selected="Python.ICP1">
     <configuration name="ICP1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="part-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,9 +187,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ICP1(3)" />
-        <item itemvalue="Python.ICP2_2" />
         <item itemvalue="Python.ICP1" />
+        <item itemvalue="Python.ICP2_2" />
+        <item itemvalue="Python.ICP1(3)" />
         <item itemvalue="Python.hello" />
       </list>
     </recent_temporary>
@@ -208,13 +208,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="382" y="181" width="817" height="683" extended-state="0" />
-    <editor active="true" />
+    <frame x="90" y="95" width="930" height="610" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36055276" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31573159" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43856657" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4639376" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -244,21 +243,21 @@
     <entry file="file://$PROJECT_DIR$/ICP1(2_1).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="42" selection-end-line="4" selection-end-column="45" />
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICP1(2_2).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ICP1(3).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="160">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
