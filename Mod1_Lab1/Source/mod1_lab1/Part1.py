@@ -1,5 +1,5 @@
 # Ask user Input String
-str = input('Enter String here')
+str = input('Enter String here - ')
 
 # Removing spaces from input string and
 # converting string to lower case as D not equal to d
