@@ -1,7 +1,6 @@
 # Codon Sequence Count from tsv file
 
 import csv
-
 #codonseq = 'AAAGGGTTTAAA'
 # Ask user input for the codon sequence
 codonseq = input("enter a codon sequence: ")
@@ -15,7 +14,6 @@ def codonlist(seq):
         for i in range(0, len(seq), 3):
             codon.append(seq[i:i+3])
         print()
-
 
 # Calling Codonlist function
 codonlist(codonseq)
@@ -31,7 +29,7 @@ with open('codon.tsv', 'r') as f:
         k, v = row
         d[k] = v
 
-# Defining new dictionary for value count
+# Defining new dictionary for value count as per the user input
 k1 = {}
 d1 = {}
 
@@ -44,6 +42,5 @@ for j in codon:
             k1[v] = 1 + k1.get(v,0)
             d1[k] = v
 
+#print the user input and its count with the dictionary value
 print(k1, 'where', d1)
-
-
