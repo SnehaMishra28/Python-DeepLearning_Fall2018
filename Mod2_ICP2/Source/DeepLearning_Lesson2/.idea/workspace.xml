@@ -14,8 +14,8 @@
       <file leaf-file-name="regression-keras.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regression-keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="105" column="28" lean-forward="true" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+            <state relative-caret-position="68">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -26,8 +26,8 @@
       <file leaf-file-name="mod2_ICP2.3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mod2_ICP2.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+            <state relative-caret-position="257">
+              <caret line="108" column="26" selection-end-line="136" selection-end-column="14" />
               <folding>
                 <element signature="e#16#53#0" expanded="true" />
               </folding>
@@ -35,11 +35,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mod2_ICP2.2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mod2_ICP2.4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mod2_ICP2.4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+              <folding>
+                <element signature="e#63#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mod2_ICP2.2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mod2_ICP2.2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="82">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +62,8 @@
       <file leaf-file-name="Mod2_ICP2.1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mod2_ICP2.1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="77" column="45" lean-forward="true" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+            <state relative-caret-position="127">
+              <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
               <folding>
                 <element signature="e#16#53#0" expanded="true" />
               </folding>
@@ -59,8 +74,8 @@
       <file leaf-file-name="kc_house_data.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kc_house_data.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="171" selection-start-column="171" selection-end-column="171" />
+            <state relative-caret-position="180">
+              <caret line="12" column="111" lean-forward="true" selection-start-line="12" selection-start-column="111" selection-end-line="12" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -89,16 +104,17 @@
         <option value="$PROJECT_DIR$/Mod2_ICP2.py" />
         <option value="$PROJECT_DIR$/Mod2_ICP2.1.py" />
         <option value="$PROJECT_DIR$/regression-keras.py" />
-        <option value="$PROJECT_DIR$/Mod2_ICP2.2.py" />
         <option value="$PROJECT_DIR$/mod2_ICP2.3.py" />
+        <option value="$PROJECT_DIR$/Mod2_ICP2.2.py" />
+        <option value="$PROJECT_DIR$/mod2_ICP2.4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="413" />
-    <option name="y" value="54" />
+    <option name="x" value="98" />
+    <option name="y" value="38" />
     <option name="width" value="1201" />
-    <option name="height" value="830" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -135,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Mod2_ICP2">
+  <component name="RunManager" selected="Python.mod2_ICP2.4">
     <configuration name="Mod2_ICP2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning_Lesson1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,24 +188,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="basicOP" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DeepLearning_Lesson1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicOP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="mod2_ICP2.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning_Lesson1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,6 +201,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mod2_ICP2.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mod2_ICP2.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearning_Lesson1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mod2_ICP2.4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,19 +257,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.basicOP" />
       <item itemvalue="Python.regression-keras" />
       <item itemvalue="Python.Mod2_ICP2" />
       <item itemvalue="Python.Mod2_ICP2.2" />
       <item itemvalue="Python.mod2_ICP2.3" />
+      <item itemvalue="Python.mod2_ICP2.4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mod2_ICP2.4" />
+        <item itemvalue="Python.Mod2_ICP2.2" />
         <item itemvalue="Python.Mod2_ICP2" />
         <item itemvalue="Python.mod2_ICP2.3" />
-        <item itemvalue="Python.Mod2_ICP2.2" />
         <item itemvalue="Python.regression-keras" />
-        <item itemvalue="Python.basicOP" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="54" width="1201" height="830" extended-state="0" />
+    <frame x="413" y="22" width="1201" height="862" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21440677" />
@@ -279,7 +295,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3150327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -331,13 +347,6 @@
     <entry file="file://$PROJECT_DIR$/diabetes.csv" />
     <entry file="file://$PROJECT_DIR$/basicOP.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/indexes/base.py" />
-    <entry file="file://$PROJECT_DIR$/kc_house_data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="171" selection-start-column="171" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/Test/venv/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2422">
@@ -345,40 +354,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mod2_ICP2.1.py">
+    <entry file="file://$PROJECT_DIR$/kc_house_data.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="77" column="45" lean-forward="true" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
-          <folding>
-            <element signature="e#16#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="111" lean-forward="true" selection-start-line="12" selection-start-column="111" selection-end-line="12" selection-end-column="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regression-keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="105" column="28" lean-forward="true" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mod2_ICP2.3.py">
+    <entry file="file://$PROJECT_DIR$/Mod2_ICP2.2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        <state relative-caret-position="82">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mod2_ICP2.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
           <folding>
             <element signature="e#16#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mod2_ICP2.2.py">
+    <entry file="file://$PROJECT_DIR$/mod2_ICP2.3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="257">
+          <caret line="108" column="26" selection-end-line="136" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mod2_ICP2.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
+          <folding>
+            <element signature="e#63#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

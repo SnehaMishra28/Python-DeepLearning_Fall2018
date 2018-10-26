@@ -1,4 +1,4 @@
-# with model, epochs = 800, activation - tanh
+# with model, epochs = 800, activation - Adam, batch_size =64
 
 from __future__ import print_function
 import os
@@ -61,12 +61,13 @@ print('Validation samples: ', arr_x_valid.shape[0])
 
 def basic_model_1(x_size, y_size):
     t_model = Sequential()
-    t_model.add(Dense(100, activation="tanh", input_shape=(x_size,)))
+    t_model.add(Dense(100, activation="sigmoid", input_shape=(x_size,)))
     t_model.add(Dense(50, activation="relu"))
+    t_model.add(Dense(20, activation="relu"))
     t_model.add(Dense(y_size))
     print(t_model.summary())
     t_model.compile(loss='mean_squared_error',
-        optimizer=Adam(),
+        optimizer=RMSprop(),
         metrics=[metrics.mae])
     return(t_model)
 
@@ -84,10 +85,10 @@ def basic_model_2(x_size, y_size):
     return(t_model)
 
 #Fitting the model
-model = basic_model_2(arr_x_train.shape[1], 1)
+model = basic_model_1(arr_x_train.shape[1], 1)
 model.summary()
 epochs = 800
-batch_size =128
+batch_size =64
 
 history = model.fit(arr_x_train, arr_y_train,
     batch_size=batch_size,
@@ -106,7 +107,7 @@ print('Val MAE: ', round(valid_score[1], 4), ', Val Loss: ', round(valid_score[0
 # summarize history for loss
 plt.plot(history.history['loss'])
 plt.plot(history.history['val_loss'])
-plt.title('model loss - model 2 (epoch 800,batch =128,activation=tanh)')
+plt.title('model loss - model 4 (epoch 800,batch =64, activation=sigmoid,optimizer=rms)')
 plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
