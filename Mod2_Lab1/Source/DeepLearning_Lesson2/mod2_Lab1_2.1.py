@@ -4,7 +4,7 @@ from keras import optimizers
 from keras.datasets import mnist
 from keras.utils import np_utils
 from keras.callbacks import TensorBoard
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 batch_size = 128
 nb_classes = 10
@@ -29,7 +29,17 @@ model.summary()
 
 # Train
 tensorboard = TensorBoard(log_dir="logs/Output",histogram_freq=0, write_graph=True, write_images=True)
-model.fit(X_train, Y_Train, nb_epoch=nb_epoch, batch_size=batch_size,callbacks=[tensorboard])
+history = model.fit(X_train, Y_Train, nb_epoch=nb_epoch, batch_size=batch_size,callbacks=[tensorboard])
 # Evaluate
 evaluation = model.evaluate(X_test, Y_Test, verbose=1)
 print('Summary: Loss over the test dataset: %.2f, Accuracy: %.2f' % (evaluation[0], evaluation[1]))
+'''
+# visualize the data
+# summarize history for loss
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('model')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()'''
